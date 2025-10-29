@@ -515,7 +515,7 @@ const CsvTable = () => {
           columns={columns}
           dataSource={data}
           pagination={{
-            pageSize: 10,
+            pageSize: 15,
             showSizeChanger: false,
           }}
           scroll={{ y: window.innerHeight * 0.7, x: "max-content" }}
